@@ -15,7 +15,7 @@ function projects() {
     <>
           <section className="portfolio  bg-[#323946]" id="portfolio">
         <h2 className='text-white text-5xl  font-serif flex justify-center pt-24'> Latest <span className='text-rose-600' >Projects</span></h2>
-        <div className="portfolio-container">
+        <div className="portfolio-container flex justify-center content-center flex-col flex-wrap md:flex-row">
             <div className="portfolio-box">
                 <img src={proj5} alt="" />
                 <div className="portfolio-layer">

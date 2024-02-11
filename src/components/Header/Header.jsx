@@ -7,10 +7,10 @@ function Header() {
 <div className='ml-18 text-2xl font-serif'>
     <p className='text-white  '>Port<span style={{color:"#FC104B"}}>folio</span></p>
 </div>
-<div >
+<div className='hidden md:block' >
     <ul className='flex  ml-96 gap-10 text-white font-serif' >
         <li>
-            <NavLink to="/" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}`  }  >Home </NavLink>
+            <NavLink to="/" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}`  }  > Home </NavLink>
         </li>
         <li>
             <NavLink to="/about" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>About me</NavLink>

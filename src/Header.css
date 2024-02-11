@@ -19,8 +19,8 @@ body{
 }
 
 .portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
     align-items: center;
     gap: 1.5rem;
     margin-left: 122px;

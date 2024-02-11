@@ -5,13 +5,13 @@ import image from '../Assets/sandhali.jpg'
 function Home() {
   return (
     <>
-   <div className='flex  h-4/5 gap-4 text-white' style={{backgroundColor: "#1F242D"}} >
+   <div className=' flex flex-col md:flex-row h-4/5 gap-4 text-white' style={{backgroundColor: "#1F242D"}} >
    
-    <div className='mt-36 ml-24 flex flex-col gap-3.5'>
+    <div className='mt-36 ml-16 md:ml-24 flex flex-col gap-3.5'>
      <p className='text-4xl font-serif '>Hello,It's Me</p>
      <p className='text-5xl font-serif '>Sandhali Gupta</p>
      <p className='text-3xl font-serif '>And I'm a Web Developer</p>
-     <p className=' font-serif '>I'm pursuing B.Tech from Vidya College of Engineering.I am skilled in Java(DSA) and I hava good knowledge of HTML and CSS and little about JavaScript. I'm very passionate and dedicated to my work.</p>
+     <p className=' mr-8 font-serif '>I'm pursuing B.Tech from Vidya College of Engineering.I am skilled in Java(DSA) and I hava good knowledge of HTML and CSS and little about JavaScript. I'm very passionate and dedicated to my work.</p>
     
      <div className='flex rounded gap-4'  >
   <div className='h-10 w-10 p-2.5 rounded-3xl border-2 ' style={{ borderColor:'#FC104B' , color:'#FC104B'}}>   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -36,7 +36,7 @@ Download CV
     
     </div>
 
-    <div className='mt-28 mr-24 image'>
+    <div className='ml-16 mb-4 mt-5 md:mt-28 md:mr-24 image'>
       <img src={image} alt=""  />
 
       

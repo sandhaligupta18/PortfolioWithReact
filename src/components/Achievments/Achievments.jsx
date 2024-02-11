@@ -13,7 +13,7 @@ function Achievments() {
     <>
       <div className='bg-[#1F242D] achieve'>
       <p className='text-white text-5xl  font-serif flex justify-center pt-24' > My <span className='text-rose-600'>Achievments</span></p>
-      <div className='flex flex-wrap gap-8 ml-28 mt-16  '>
+      <div className='flex flex-col justify-center content-center md:flex-row flex-wrap gap-8  mt-16  '>
         <div className=' h-[16rem] w-[22rem]  rounded-xl border-4 border-rose-600 '>
             <img src={cert1}  alt=""  />
         </div>
