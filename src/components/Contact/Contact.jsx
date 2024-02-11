@@ -39,7 +39,7 @@ function Contact() {
       </div>
       
       <div className=' mt-6 '>
-        <input className='h-[14rem] w-[22rem]  md:h-[15rem] md:w-[45rem] p-2  mb-12 shadow-slate-400 shadow-sm bg-[#323946] rounded-lg text-slate-300' name="message" type="text" placeholder='Your Message' />
+        <input className='h-[14rem] w-[22rem]   md:h-[15rem] md:w-[45rem] p-2  mb-12 shadow-slate-400 shadow-sm bg-[#323946] rounded-lg text-slate-300' name="message" type="text" placeholder='Your Message' />
       </div>
 
       <button className='bg-rose-600 mb-12 shadow-rose-600 flex justify-center items-center shadow-md h-10 w-40  rounded-3xl' type="submit">Submit</button> <button/>
