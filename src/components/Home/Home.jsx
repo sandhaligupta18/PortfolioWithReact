@@ -7,7 +7,7 @@ function Home() {
     <>
    <div className=' flex flex-col md:flex-row h-4/5 gap-4 text-white' style={{backgroundColor: "#1F242D"}} >
    
-    <div className='mt-36 ml-16 md:ml-24 flex flex-col gap-3.5'>
+    <div className='md:mt-36 mt-28 ml-16 md:ml-24 flex flex-col gap-3.5'>
      <p className='text-4xl font-serif '>Hello,It's Me</p>
      <p className='text-5xl font-serif '>Sandhali Gupta</p>
      <p className='text-3xl font-serif '>And I'm a Web Developer</p>
@@ -36,7 +36,7 @@ Download CV
     
     </div>
 
-    <div className='ml-16 mb-4 mt-5 md:mt-28 md:mr-24 image'>
+    <div className='ml-10 mb-4 mt-5 md:mt-28 md:mr-24 image'>
       <img src={image} alt=""  />
 
       

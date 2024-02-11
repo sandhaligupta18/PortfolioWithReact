@@ -8,7 +8,7 @@ function About() {
       <div className='bg-[#323946]' >
       <div className='text-white text-5xl  font-serif flex justify-center pt-20 md:pt-24' >  About <span className='text-rose-600'> Me</span>  </div>
       <div className=' flex flex-col md:flex-row gap-8'>
-        <div className='mt-11 rounded-full ml-6 md:ml-16 bg-white'>  
+        <div className='mt-11 rounded-full ml-2 md:ml-16 bg-white'>  
 
         <img src={image} alt="" height={500}  width={600} className='' />
         </div>
