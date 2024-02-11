@@ -28,6 +28,7 @@ function Home() {
 
      </div>
      <div className='mt-5'>
+      
      <button className='h-12 w-40 rounded-3xl text-lg font-serif shadow-lg shadow-red-500 text-slate-600' style={{backgroundColor:'#FC104B' }}>
 Download CV
      </button>
