@@ -35,7 +35,7 @@ Download CV
     
     </div>
 
-    <div className='ml-10 mb-4 mt-5 md:mt-28 md:mr-24 image'>
+    <div className='ml-6 mb-4 mt-5 md:mt-28 md:mr-24 image'>
       <img src={image} alt=""  />
 
       
