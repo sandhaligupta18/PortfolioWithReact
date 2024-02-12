@@ -42,7 +42,7 @@ function Header() {
     </ul>
     
 </div>
- <div className='bg-[#606163] md:hidden  w-96 absolute  '>
+ <div className='bg-[#606163] md:hidden  z-10 w-96 absolute  '>
  {open? (
         
         

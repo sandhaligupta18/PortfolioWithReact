@@ -9,7 +9,7 @@ function Skills() {
   return (
     <>
        <div className='bg-[#1F242D]'>
-       <p className='text-white text-5xl  font-serif flex justify-center pt-24' > My <span className='text-rose-600'>Skills</span></p>
+       <p className='text-white text-5xl font-serif flex justify-center md:pt-24 pt-16' > My <span className='text-rose-600'>Skills</span></p>
 
      <div className='flex flex-wrap gap-8 justify-center items-center  mt-16 '>
         <div className='h-[22rem] w-[22rem]  rounded-3xl border-2 transition ease-in delay  hover:scale-105 border-rose-600 bg-[#323946]  hover:border-none'>
@@ -37,15 +37,11 @@ function Skills() {
             <p className='text-white text-2xl mt-2 font-serif mr-8  font-bold'>Javascript</p>
 </div>
 <p className='pl-6 pr-6 font-serif  text-white text-sm '>JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc.</p>
-
-
-
-        </div>
-        <div className='h-[22rem] w-[22rem] md:h-[20rem] mb-8 md:w-[34rem] rounded-3xl border-2 border-rose-600 bg-[#323946] transition ease-in delay-75 hover:scale-105 hover:border-none'>
+    </div>
+        <div className='h-[22rem] w-[22rem] md:h-[20rem] md:mb-8 md:w-[34rem] rounded-3xl border-2 border-rose-600 bg-[#323946] transition ease-in delay-75 hover:scale-105 hover:border-none'>
             <div className='flex  justify-center items-center flex-col p-8 '><FaJava className='h-16 w-16 text-rose-600' />
             <p className='text-white text-2xl mt-2 font-serif  font-bold'>Java</p>
 </div>
-
 <p className='pl-6 pr-6 font-serif  text-white text-sm '>Java is a widely used programming language expressly designed for use in the distributed environment of the internet. It is the most popular programming language for Android smartphone applications and is also among the most favored for the development of edge devices and the internet of things.</p>
         </div>
         <div className='h-[22rem] w-[22rem] md:h-[20rem]  md:mb-8 md:w-[34rem] rounded-3xl border-2 border-rose-600 bg-[#323946] transition ease-in delay-75 hover:scale-105 hover:border-none'>
@@ -53,7 +49,6 @@ function Skills() {
             ><BiLogoPostgresql className='h-16 w-16 text-rose-600' />
               <p className='text-white text-2xl mt-2 font-serif font-bold'>SQL</p>
 </div>
-
 <p className='pl-6 pr-6 font-serif   text-white text-sm '>A database is a separate application that stores a collection of data. Each database has one or more distinct APIs for creating, accessing, managing, searching the data it holds. Other kinds of data stores can also be used, such as files on the file system or large hash tables in memory but data fetching and writing would not be so fast and easy with those type of systems.</p>
         </div>
      

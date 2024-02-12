@@ -18,7 +18,7 @@ function About() {
           <p> Hello there! I'm a Frontend Developer.I'm a self-motivating person and I learn from my past mistakes. I'm currently pursuing Bachelor of Technology in specialization of Computer Science and Engineering. I have done 7+ mini projects.I'm always punctual to my work and I have the quality of leadership and team management skill. </p>  </div>
           <div className='ml-28   flex md:flex-row flex-col gap-10 md:gap-20 mt-10'>
           
-<div className='h-24 w-32 p-4  cursor-pointer transition duration-500 hover:scale-125  rounded-[50%] bg-[#1F242D] border-2 border-rose-600 font-bold text-white'>2+ <span className='text-rose-700'>Years Of Experience</span></div>
+<div className='h-24 w-32 p-5  cursor-pointer transition duration-500 hover:scale-125  rounded-[50%] bg-[#1F242D] border-2 border-rose-600 font-bold text-white'>2+ <span className='text-rose-700'>Years Of Experience</span></div>
 <div className='h-24 w-32 p-7 cursor-pointer transition duration-500 hover:scale-125 rounded-[50%] bg-[#1F242D] border-2 border-rose-600 font-bold text-white'>7+ <span className='text-rose-600'> Projects</span></div>
 <div className='h-24 w-32 p-6 cursor-pointer transition duration-500 hover:scale-125  rounded-[50%] bg-[#1F242D] border-2 border-rose-600 font-bold text-white'>5+ <span className='text-rose-600'>Certificates</span></div>
 
