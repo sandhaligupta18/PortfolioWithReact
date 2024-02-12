@@ -42,7 +42,7 @@ function Header() {
     </ul>
     
 </div>
- <div className='bg-[#606163] md:hidden  z-10 w-96 absolute  '>
+ <div className='bg-[#606163] md:hidden z-10  w-96 absolute  '>
  {open? (
         <ul className='flex flex-col md:flex-row mt-96  justify-center items-center  md:ml-96 gap-10 text-white font-serif ' >
         <li>
@@ -70,8 +70,8 @@ function Header() {
     ): null }
  </div>
  <div className='' onClick={handleMenu}>
-    {open === false ? <IoIosMenu className='h-14 w-10 text-slate-50 md:hidden ' /> :
-    <RxCross2 className='h-14 w-10 text-slate-50 md:hidden   relative' />}
+    {open == false ? <IoIosMenu className='h-14 w-10 text-slate-50 md:hidden ' /> :
+    <RxCross2 className='h-14 w-10 text-slate-50 md:hidden  z-30 relative' />}
     </div>
 
       </div>
