@@ -71,7 +71,6 @@ function Header() {
  </div>
 
  <div className='' onClick={handleMenu}>
-
     {open === false ? <IoIosMenu className='h-14 w-10 text-slate-50 md:hidden ' /> :
     <RxCross2 className='h-14 w-10 text-slate-50 md:hidden   relative' />}
     </div>
