@@ -4,7 +4,7 @@ function Footer() {
   return (
     
     <footer>
-    <p className='h-20 text-lg font-serif  text-white flex items-center justify-center' style={{backgroundColor: "#1F242D"}}>Copyright © 2023 by Sandhali | All Rights Reserved.</p>
+    <p className='h-20 text-lg font-serif   text-white flex items-center justify-center' style={{backgroundColor: "#1F242D"}}>Copyright © 2023 by Sandhali | All Rights Reserved.</p>
     </footer>
     
   )

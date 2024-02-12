@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../Assets/sandhali.jpg'
+import image from '../Assets/WhatsApp Image 2024-02-11 at 2.57.12 PM.jpg'
 // import LaptopPic  from './Assets/LaptopPic.jpg';
 
 function About() {
@@ -8,9 +8,9 @@ function About() {
       <div className='bg-[#323946]' >
       <div className='text-white text-5xl  font-serif flex justify-center pt-20 md:pt-24' >  About <span className='text-rose-600'> Me</span>  </div>
       <div className=' flex flex-col md:flex-row gap-8'>
-        <div className='mt-11 rounded-full ml-2 md:ml-16 bg-white'>  
+        <div className='mt-11 w-72 ml-12  md:ml-16'>  
 
-        <img src={image} alt="" height={500}  width={600} className='' />
+        <img src={image} alt=""  className='' />
         </div>
         
         <div className='flex-row '>

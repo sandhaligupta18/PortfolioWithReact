@@ -1,12 +1,12 @@
 import React from 'react'
-import image from '../Assets/sandhali.jpg'
+import image from '../Assets/WhatsApp Image 2024-02-11 at 2.57.12 PM.jpg'
 
 
 function Home() {
   return (
     <>
    <div className=' flex flex-col md:flex-row h-4/5 gap-4 text-white' style={{backgroundColor: "#1F242D"}} >
-    <div className='md:mt-36 mt-28 ml-16 md:ml-24 flex flex-col gap-3.5'>
+    <div className='md:mt-36 mt-14 ml-16 md:ml-24 flex flex-col gap-3.5'>
      <p className='text-4xl font-serif '>Hello,It's Me</p>
      <p className='text-5xl font-serif '>Sandhali Gupta</p>
      <p className='text-3xl font-serif '>And I'm a Web Developer</p>
@@ -29,14 +29,14 @@ function Home() {
      </div>
      <div className='mt-5'>
       
-     <button className='h-12 w-40 rounded-3xl text-lg font-serif shadow-lg shadow-red-500 text-slate-600' style={{backgroundColor:'#FC104B' }}>
+     <button className='h-12 md:w-40 w-56 rounded-3xl text-lg font-serif shadow-lg shadow-red-500 text-slate-600' style={{backgroundColor:'#FC104B' }}>
 Download CV
      </button>
      </div>
     
     </div>
 
-    <div className=' mb-4 mt-5 md:mt-28 md:mr-24 image'>
+    <div className='ml-16 w-64 mb-4 mt-5 md:mt-28 md:mr-24 image'>
       <img src={image} alt=""  />
 
       
