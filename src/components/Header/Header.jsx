@@ -44,9 +44,6 @@ function Header() {
 </div>
  <div className='bg-[#606163] md:hidden  z-10 w-96 absolute  '>
  {open? (
-        
-        
-
         <ul className='flex flex-col md:flex-row mt-96  justify-center items-center  md:ml-96 gap-10 text-white font-serif ' >
         <li>
             <NavLink to="/" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}`}  > Home </NavLink>
