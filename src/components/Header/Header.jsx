@@ -3,6 +3,7 @@ import { useState } from 'react';
 import {  NavLink } from 'react-router-dom'
 import { IoIosMenu } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
+import { click } from '@testing-library/user-event/dist/click';
 
 function Header() {
     const [open , setOpen] = useState(false);
@@ -10,6 +11,10 @@ function Header() {
         console.log(open);
         setOpen((prev) => !prev);
     }
+
+
+
+    
   return (
     <>
       <div className='flex h-20 items-center justify-around '  style={{backgroundColor: "#1F242D"}}>
@@ -42,9 +47,9 @@ function Header() {
     </ul>
     
 </div>
- <div className='bg-[#606163] md:hidden z-10  w-96 absolute  '>
+ <div className='bg-[#606163] md:hidden z-10  w-96 absolute'>
  {open? (
-        <ul className='flex flex-col md:flex-row mt-96  justify-center items-center  md:ml-96 gap-10 text-white font-serif ' >
+        <ul onClick={click} className='flex flex-col md:flex-row mt-96  justify-center items-center  md:ml-96 gap-10 text-white font-serif ' >
         <li>
             <NavLink to="/" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}`}  > Home </NavLink>
         </li>

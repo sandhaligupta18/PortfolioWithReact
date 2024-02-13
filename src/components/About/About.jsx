@@ -8,9 +8,9 @@ function About() {
       <div className='bg-[#323946]' >
       <div className='text-white text-5xl  font-serif flex justify-center pt-20 md:pt-24' >  About <span className='text-rose-600'> Me</span>  </div>
       <div className=' flex flex-col md:flex-row gap-8'>
-        <div className='mt-11 w-72 ml-12  md:ml-16'>  
+        <div className='mt-11 h-[24rem] w-[20rem]  md:w-[35rem] md:h-[19rem] p-7 ml-8  md:ml-16 rounded-full overflow-hidden'>  
 
-        <img src={image} alt=""  className='' />
+        <img src={image} alt=""  className='object-cover w-full h-full' />
         </div>
         
         <div className='flex-row '>
