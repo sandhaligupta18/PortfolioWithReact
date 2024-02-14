@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import { Link } from "react-scroll";
 import {  NavLink } from 'react-router-dom'
 import { IoIosMenu } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
@@ -24,25 +25,25 @@ function Header() {
 <div className='md:block hidden ' >
         <ul className='flex  md:flex-row    justify-center items-center  md:ml-96 gap-10 text-white font-serif ' >
         <li>
-            <NavLink to="/" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}`}  > Home </NavLink>
+            <NavLink to="/"  className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}`}  > Home </NavLink>
         </li>
         <li>
-            <NavLink to="/about" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>About me</NavLink>
+            <Link to="about-me"  spy={true} smooth={true} offset={-30} duration={500} className={ ({isActive})=>`${isActive ? "text-rose-600" :"text-white"} `  }>About me</Link>
         </li>
         <li>
-            <NavLink to="/skills" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }  >Skills</NavLink>
+            <Link to="skills"  spy={true} smooth={true} offset={-30} duration={500} className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"} cursor-pointer` }  >Skills</Link>
         </li>
         <li>
-            <NavLink to="/projects" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>Projects</NavLink>
+            <Link to="portfolio" spy={true} smooth={true} offset={-30} duration={500} className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"} cursor-pointer` }>Projects</Link>
         </li>
         <li>
-            <NavLink to="/achievments" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>Achievments</NavLink>
+            <Link to="achievements" spy={true} smooth={true} offset={-30} duration={500} className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"} cursor-pointer` }>Achievments</Link>
         </li>
         <li>
-            <NavLink to="/qualification" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>Qualification</NavLink>
+            <Link to="qualification" spy={true} smooth={true} offset={-30} duration={500} className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"} cursor-pointer` }>Qualification</Link>
         </li>
         <li>
-            <NavLink to="/contact" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>Contact</NavLink>
+            <Link to="contact" spy={true} smooth={true} offset={-30} duration={500} className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"} cursor-pointer` } >Contact </Link>
         </li>
     </ul>
     
@@ -54,22 +55,22 @@ function Header() {
             <NavLink to="/" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}`}  > Home </NavLink>
         </li>
         <li>
-            <NavLink to="/about" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>About me</NavLink>
+            <Link to="about-me" spy={true} smooth={true} offset={-30} duration={500} className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>About me</Link>
         </li>
         <li>
-            <NavLink to="/skills" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }  >Skills</NavLink>
+            <Link to="skills" spy={true} smooth={true} offset={-30} duration={500} className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }  >Skills</Link>
         </li>
         <li>
-            <NavLink to="/projects" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>Projects</NavLink>
+            <Link to="portfolio"spy={true} smooth={true} offset={-30} duration={500} className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>Projects</Link>
         </li>
         <li>
-            <NavLink to="/achievments" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>Achievments</NavLink>
+            <Link to="achievments"spy={true} smooth={true} offset={-30} duration={500} className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>Achievments</Link>
         </li>
         <li>
-            <NavLink to="/qualification" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>Qualification</NavLink>
+            <Link to="qualification"spy={true} smooth={true} offset={-30} duration={500} className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"}` }>Qualification</Link>
         </li>
         <li>
-            <NavLink to="/contact" className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"} ` }>Contact</NavLink>
+            <Link to="contact"spy={true} smooth={true} offset={-30} duration={500} className={({isActive})=>`${isActive ? "text-rose-600" :"text-white"} ` }>Contact</Link>
         </li>
     </ul>
     ): null }

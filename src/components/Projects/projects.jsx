@@ -13,7 +13,7 @@ function projects() {
   return (
     
     <>
-          <section className="portfolio  bg-[#323946] z-20 " id="portfolio">
+          <section className="portfolio  bg-[#323946] z-20 " id="portfolio ">
         <h2 className='text-white text-5xl  font-serif flex justify-center pt-24'> Latest <span className='text-rose-600' >Projects</span></h2>
         <div className="portfolio-container flex justify-center content-center flex-col flex-wrap md:flex-row">
             <div className="portfolio-box">

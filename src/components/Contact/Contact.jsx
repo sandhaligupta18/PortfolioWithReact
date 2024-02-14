@@ -25,7 +25,7 @@ function Contact() {
 
   return (
     <>
-    <form className='bg-[#1F242D] ' ref={form} onSubmit={sendEmail}>
+    <form className='bg-[#1F242D]' id='contact' ref={form} onSubmit={sendEmail}>
       <p className='text-white text-5xl  font-serif flex justify-center pt-24'>Contact <span className='text-rose-600'>Me!</span>  </p>
      <div className=' mt-16 flex justify-center items-center flex-col'>
   

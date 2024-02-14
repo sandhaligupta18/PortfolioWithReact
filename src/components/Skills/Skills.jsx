@@ -8,7 +8,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 function Skills() {
   return (
     <>
-       <div className='bg-[#1F242D]'>
+       <div className='bg-[#1F242D]' id='skills'>
        <p className='text-white text-5xl font-serif flex justify-center md:pt-24 pt-16' > My <span className='text-rose-600'>Skills</span></p>
 
      <div className='flex flex-wrap gap-8 justify-center items-center  mt-16 '>

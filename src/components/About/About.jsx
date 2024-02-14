@@ -5,7 +5,7 @@ import image from '../Assets/WhatsApp Image 2024-02-11 at 2.57.12 PM.jpg'
 function About() {
   return (
     <>
-      <div className='bg-[#323946]' >
+      <div className='bg-[#323946]' id='about-me' >
       <div className='text-white text-5xl  font-serif flex justify-center pt-20 md:pt-24' >  About <span className='text-rose-600'> Me</span>  </div>
       <div className=' flex flex-col md:flex-row gap-8'>
         <div className='mt-11 h-[24rem] w-[20rem]  md:w-[35rem] md:h-[19rem] p-7 ml-8  md:ml-16 rounded-full overflow-hidden'>  
@@ -18,7 +18,7 @@ function About() {
           <p> Hello there! I'm a Frontend Developer.I'm a self-motivating person and I learn from my past mistakes. I'm currently pursuing Bachelor of Technology in specialization of Computer Science and Engineering. I have done 7+ mini projects.I'm always punctual to my work and I have the quality of leadership and team management skill. </p>  </div>
           <div className='ml-28   flex md:flex-row flex-col gap-10 md:gap-20 mt-10'>
           
-<div className='h-24 w-32 p-5  cursor-pointer transition duration-500 hover:scale-125  rounded-[50%] bg-[#1F242D] border-2 border-rose-600 font-bold text-white'>2+ <span className='text-rose-700'>Years Of Experience</span></div>
+<div className='h-24 w-32 p-6  cursor-pointer transition duration-500 hover:scale-125  rounded-[50%] bg-[#1F242D] border-2 border-rose-600 font-bold text-white'>2+ <span className='text-rose-700'>Yrs Of Experience</span></div>
 <div className='h-24 w-32 p-7 cursor-pointer transition duration-500 hover:scale-125 rounded-[50%] bg-[#1F242D] border-2 border-rose-600 font-bold text-white'>7+ <span className='text-rose-600'> Projects</span></div>
 <div className='h-24 w-32 p-6 cursor-pointer transition duration-500 hover:scale-125  rounded-[50%] bg-[#1F242D] border-2 border-rose-600 font-bold text-white'>5+ <span className='text-rose-600'>Certificates</span></div>
 

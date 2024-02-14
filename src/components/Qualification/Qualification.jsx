@@ -3,7 +3,7 @@ import React from 'react'
 function Qualification() {
   return (
     <>
-      <div className='bg-[#323946]'  >
+      <div className='bg-[#323946]' id='qualification'  >
         <p className='text-white text-5xl  font-serif flex justify-center pt-24'> My <span className='text-rose-600'>Education</span></p>
         <div className='mt-28  flex-col justify-center items-center md:flex-row  flex gap-5'>
             <div className='h-[14rem] mb-28 w-[23rem]  bg-[#A5F59C] hover:bg-[#89F87D] text-rose-600 rounded-2xl   text-center '><p className='text-3xl font-serif mt-20 font-bold cursor-pointer'>B.Tech(CSE)</p><p className='text-xl font-serif'>Vidya College Of Engineering,Meerut</p></div>  

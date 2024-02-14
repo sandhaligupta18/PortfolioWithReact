@@ -1,5 +1,13 @@
 import React from 'react'
 import image from '../Assets/WhatsApp Image 2024-02-11 at 2.57.12 PM.jpg';
+import About from '../About/About.jsx'
+import Skills from '../Skills/Skills.jsx';
+import Projects from '../Projects/projects.jsx';
+import Achievments from '../Achievments/Achievments.jsx';
+import Qualification from '../Qualification/Qualification.jsx';
+import Contact from '../Contact/Contact.jsx'
+
+// import Layout from './Layout';
 
 
 function Home() {
@@ -43,6 +51,15 @@ Download CV
       <img src={image} alt="" className='object-cover w-full h-full'  />
     </div>
    </div>
+
+   {/* About */}
+   <About />
+<Skills />
+<Projects />
+<Achievments />
+<Qualification />
+<Contact />
+   
     </>
   )
 }
